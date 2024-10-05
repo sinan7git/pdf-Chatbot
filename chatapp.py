@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyBJGzt-025A-JqVA68JEG-3untCz9EbQ38"))
 
 def get_pdf_text(pdf_docs):
     text = ""
